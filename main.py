@@ -1,8 +1,8 @@
 from database import Base, engine, SessionLocal
 from models import Author, Category, Tag, Post
 
-Base.metadata.drop_all(bind=engine)
-Base.metadata.create_all(bind=engine)
+# Base.metadata.drop_all(bind=engine)
+# Base.metadata.create_all(bind=engine)
 
 session = SessionLocal()
 
